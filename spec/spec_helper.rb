@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
-require "puppet/external/pson/common"
-require "puppet/external/pson/pure"
-require "puppet/external/pson/version"
+require "puppet/external/pson"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
